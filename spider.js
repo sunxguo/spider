@@ -50,7 +50,7 @@ var  dataHandler = function(url){
 		}
 	});
 }
-var startUrl='http://i.firefoxchina.cn/';
+var startUrl='http://xinhuanet.com/';
 dataHandler(startUrl);
 emitter.on('dataHandler', dataHandler);
 // var listener = function(foo,bar){
